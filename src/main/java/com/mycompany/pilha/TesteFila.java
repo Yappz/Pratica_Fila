@@ -1,4 +1,4 @@
-package com.mycompany.pilha;
+package com.mycompany.fila;
 
 import java.util.Random;
 
