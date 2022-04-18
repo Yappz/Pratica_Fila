@@ -17,7 +17,7 @@ public class TesteFila {
             for (int i = 0; i < max; i++) {
                 r = Math.abs(random.nextInt() % max);
                 p.push(r, i);
-                //System.out.println("Empilhou: " + r);
+                //System.out.println("Enfilerou: " + r);
             }
             p.imprimir();
             p.pop();
