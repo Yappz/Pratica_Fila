@@ -37,7 +37,7 @@ public class Fila {
 
     public Object pop() throws Exception {
         if (this.vazia()) {
-            throw new Exception("Pilha vazia!");
+            throw new Exception("Fila vazia!");
         }
         Object item = null;
         try {
